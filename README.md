@@ -2,13 +2,14 @@
 
 | Section | Link |
 |---------|------|
-| IETE Webpage Design Contest | [iete-webpage-design-contest](#iete-webpage-design-contest) |
-| Team Overview | [team-overview](#team-overview) |
-| Movie Series Themes | [movie-series-themes](#movie-series-themes) |
-| Submission Workflow|[submission-workflow](#submission-workflow)| 
-| Submission Guidelines | [submission-guidelines](#submission-guidelines) |
-| Reference Video | [reference-video](#reference-video) |
+| IETE Webpage Design Contest | [#iete-webpage-design-contest](#iete-webpage-design-contest) |
+| Team Overview | [#team-overview](#team-overview) |
+| Movie Series Themes | [#movie-series-themes](#movie-series-themes) |
+| Submission Workflow | [#submission-workflow](#submission-workflow) |
+| Submission Guidelines | [#submission-guidelines](#submission-guideline) |
+| Reference Video | [#reference-video](#reference-video) |
 
+[The rest of the document content remains unchanged]
 Welcome to the IETE Webpage Design Contest! In this competition, you will be provided with a basic HTML structure for a webpage. Your task is to bring this page to life by styling it creatively and innovatively based on the theme of a movie series of your choice. 
 
 ## Team Overview
@@ -48,24 +49,32 @@ Immerse yourself in the visually stunning world of Demon Slayer, where demon hun
 ### 7. Attack on Titan
 
 Experience the intense and dystopian world of Attack on Titan, where humanity fights for survival against giant humanoid Titans. The stark contrasts and high stakes in this series offer a perfect backdrop for a design that is both dramatic and haunting.
-## How to make a Submission? 
-So how do you even make a submission here ? 
-Just follow the steps and  copy pasta the below code lines (best way to do anything)
+
+## Submission Workflow 
+
+**So how do you even make a submission here ?**
+
+Just follow the steps and  **copy pasta the below code** lines (best way to do anything)
 ### 1. Forking The repo : 
-    Go and Fork this repo :
-    `https://github.com/ietebitmesra/DevQuest-24`
-    Once Forked , *clone the repo* into your local system.
+Go and Fork this repo :
+    [DevQuest 2024](https://github.com/ietebitmesra/DevQuest-24)
+Once Forked , **clone the repo** into your local system.
 ### 2. Cloning the repo: 
-    `git clone https://github.com/<Your-name>/DevQuest-24`
-    > [!IMPORTANT] Replace the contents of `<Your-name>` with your forked repo
+```
+git clone https://github.com/<Your-name>/DevQuest-24
+```
+> [!IMPORTANT]
+>  Replace the contents of `<Your-name>` with your forked repo
 ### 3. Making Awesome Changes on Branches : 
-    Once you have succsessfully cloned the repo , make a branch with your team-name and style the webpage 
+Once you have succsessfully cloned the repo , make a branch with your team-name and style the webpage 
     `git branch <branch-name>`
-    > [!IMPORTANT] Remember to replace <branch-name> with the name of your team
-    > Also make sure to check which branch you are on with `git branch`
+> [!IMPORTANT]
+> Remember to replace `<branch-name>` with the name of your team
+> 
+> Also make sure to check which branch you are on with `git branch`
 ### 4. Pushing Your Changes : 
-    After making the neccessary changes follow the standard add-commit-push workflow
-    ```
+After making the neccessary changes follow the standard add-commit-push workflow
+```bash
     # See the changes 
     git status 
     # Add to staging Area
@@ -74,14 +83,14 @@ Just follow the steps and  copy pasta the below code lines (best way to do anyth
     git commit -m "My Awesome Styles"
     # Push 
     git push origin <branch-name>
-    ```
+```
 ### 5. Making the submission : 
-    Generate the pull request from your github repoistory , by clicking on  *Contribute* , make sure to sync your forked repo first.
-    Detail your submission in the pull request itself , by uploading demo videos , adding description etcetra.
+ Generate the pull request from your github repoistory , by clicking on  *Contribute* , make sure to sync your forked repo first.
+ Detail your submission in the pull request itself , by uploading demo videos , adding description etcetra.
 ### 6. Tell Others : 
-    You get to have full bragging rights related to your participation in **DevQuest-24**.
+ You get to have full bragging rights related to your participation in **DevQuest-24**.
 ### 7. Troubelshooting: 
-    In case there is any confusion , or you are in need of help do one or any of the following : 
+ In case there is any confusion , or you are in need of help do one or any of the following : 
     - Create an Issue on [DevQuest Repo](https://github.com/ietebitmesra/DevQuest-24) 
     - Message on the whatsapp 
 ## Submission Guideline
