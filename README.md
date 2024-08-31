@@ -9,7 +9,6 @@
 | Submission Guidelines | [#submission-guidelines](#submission-guideline) |
 | Reference Video | [#reference-video](#reference-video) |
 
-[The rest of the document content remains unchanged]
 Welcome to the IETE Webpage Design Contest! In this competition, you will be provided with a basic HTML structure for a webpage. Your task is to bring this page to life by styling it creatively and innovatively based on the theme of a movie series of your choice. 
 
 ## Team Overview
@@ -67,7 +66,9 @@ git clone https://github.com/<Your-name>/DevQuest-24
 >  Replace the contents of `<Your-name>` with your forked repo
 ### 3. Making Awesome Changes on Branches : 
 Once you have succsessfully cloned the repo , make a branch with your team-name and style the webpage 
-    `git branch <branch-name>`
+    ```
+    git branch <branch-name>
+    ```
 > [!IMPORTANT]
 > Remember to replace `<branch-name>` with the name of your team
 > 
